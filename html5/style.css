@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: calibri, 'sagoe ui', arial, tahoma, sans-serif;
+}
+
+body{
+	background-color: #DDDDDD;
+}
+
+#wrapper{
+	width: 780px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header{
+	background: url(images/header.jpg) repeat-x #555;
+	height: 70px;
+	width: 100%;
+	padding: 5px;
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+header a:hover{
+	text-decoration: none;
+	color: #ff0000;
+}
+
+header img{ width: 130px; height: 35px ;}
+
+header form{
+	float: right;
+	margin-top: 7px;
+	margin-right: 10px;
+}
+
+header form input{
+	border : none;
+	height: 20px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ff0000;
+}
+
+#menu-utama{
+	margin-top: 3px;
+	list-style: none;
+}
+
+#menu-utama li{
+	float: left;
+	padding: 0px 20px;
+	border-right: 1px solid #555555;
+}
+
+#menu-utama li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+section{
+	width: 470px;
+	float: left;
+}
+
+article{
+	background: #ffffff;
+	padding: 10px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+article img{
+	float: left;
+	margin-right: 10px;
+	width: 200px;
+	height: 165px;
+}
+
+article b{
+	color: #616060;
+	background: #DDDDDD;
+	padding: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+article p{
+	margin: 10px 0;
+}
+
+article a{
+	display: block;
+	text-align: right;
+	color: #636363;
+}
+
+aside{
+	width: 270px;
+	float: right;
+}
+
+aside h2{
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+aside p{
+	line-height: 20px;
+	color: #636363;
+}
+
+aside ul li a{
+	color: #636363;
+	text-decoration: none;	
+}
+
+ footer{
+	clear: both;
+	margin: 20px 0;
+	text-align: center;
+	background-color: #f0f0f0;
+	padding: 5px;
+	color: #555555;
+}
+
+
+label, input, select {
+	display:block;
+}
+input, select {
+	margin-bottom: 1em;
+}
+fieldset {
+	margin-bottom: 2em;
+	padding: 1em;
+}
+fieldset fieldset {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#submit-btn {
+	float: center;
+    border: none;
+    cursor: pointer;  
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 154px;	
+    height: 30px;
+}
+
+#submit-btn:hover {
+	color: blue;	
+}
